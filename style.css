@@ -22,7 +22,7 @@ a.link {
 
 button.btn {
     border-radius: 20px;
-    width: 70%;
+    width: max-content;
     padding: 6px 22px 6px 22px;
     background: #f74b16fa;
     box-shadow: 0 8px 32px 0 #f74b1679;
