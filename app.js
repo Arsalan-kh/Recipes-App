@@ -1,4 +1,4 @@
-const API_Key = "ed790403a9414a93a8dfcb0488c970e0"; //Api key
+const API_Key = "20397067c4ea4412be53801c9a7d0200"; //Api key
 
 const query = "pasta"; //The requirement which recipies you want to show//
 const ShowPasta = document.querySelector('.ShowPasta'); //target the div whose class name 'ShowPasta'
