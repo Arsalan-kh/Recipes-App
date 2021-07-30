@@ -13,6 +13,7 @@ fetch(` https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_Key}&quer
     data.results.forEach(results => {
         ShowPasta.innerHTML += `
         <div class="card-container   ">
+        <div class="flex-card">
                     <div class="card mt-5 mb-3" style="max-width: 540px;">
                         <div class="row no-gutters">
                             <div class=" col-6">
@@ -31,6 +32,7 @@ fetch(` https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_Key}&quer
                                 <span class="icon"><i class="fa fa-bookmark-o" aria-hidden="true"></i></span>
                                 <img src="${results.image}" class="card-img" alt="Pasta-img">
                             </div>
+                        </div>
                         </div>
                     </div>
         
