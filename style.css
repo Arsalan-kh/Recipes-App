@@ -7,12 +7,14 @@ span.heading {
     color: #f74b16fa;
 }
 
+
+/* 
 div.container {
-    display: flex;
+    /* display: flex;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;
-}
+    flex-wrap: wrap; 
+} */
 
 a.link {
     margin-left: 10px;
@@ -66,6 +68,35 @@ div.card {
     -webkit-backdrop-filter: blur( 20.0px);
     border-radius: 15px;
     border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+
+/* 
+div.flex-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+
+/* 
+div.flex-card {
+    /* display: flex;
+    flex-direction: column; */
+
+
+/* flex-direction: column;
+    justify-content: flex-start; */
+
+
+/* flex-wrap: nowrap; 
+} */
+
+div.ShowPasta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
